@@ -30,11 +30,11 @@ This template repository is the starter project for Programming in Science Assig
 
 5. **(20%)** While Loop – Counting Multiples of 3:
 
-   - Write a function that counts from 1 to 20 using a ```while``` loop. For every number that is a multiple of 3, the function should return "Multiple of 3" instead of the number.
+   - Write a function that counts from 1 to ```limit``` using a ```while``` loop. For every number that is a multiple of 3, the function should return "Multiple of 3" instead of the number.
 
-6. **(20%)** Do-While Loop Simulation – Ask for Positive Number:
+6. **(20%)** Sum of Even Numbers in a Range:
 
-   - Write a function that continuously asks the user for a number until they input a positive number. The function should return the first positive number input by the user.
+   - Write a function that takes a start and an end value and calculates the sum of all even numbers within that range.
 
 
 ### Run Command
