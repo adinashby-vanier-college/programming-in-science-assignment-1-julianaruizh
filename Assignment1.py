@@ -32,7 +32,21 @@ def check_number(number):
 
 # Function 4: For Loop – Making a Star Shape
 # This function should return a string representing a star shape.
+
 def star_shape(rows):
+    moon= ""
+    for i in range (1, rows+1):
+        if i < rows:
+            moon= moon + (i*"*") + "\n"
+        
+        else:
+            moon= moon + (i*"*")
+    return moon
+    
+     
+
+
+
     
 
 # Function 5: While Loop – Counting Multiples of 3
@@ -46,3 +60,4 @@ def count_multiples_of_3(limit):
 def sum_of_even_numbers(start, end):
     # TODO: Implement this function
     pass  # Replace with your code
+
