@@ -34,17 +34,17 @@ def check_number(number):
 # This function should return a string representing a star shape.
 
 def star_shape(rows):
-    moon= ""
-    for i in range (1, rows+1):
+    moon = ""
+    for i in range (1, rows + 1):
         if i < rows:
-            moon= moon + (i*"*") + "\n"
+            moon= moon + (i * "*") + "\n"
         
         else:
-            moon= moon + (i*"*")
+            moon= moon + (i * "*")
+    
     return moon
     
-     
-
+print(star_shape(5))    
 
 
     
@@ -52,12 +52,34 @@ def star_shape(rows):
 # Function 5: While Loop – Counting Multiples of 3
 # This function should return a list of numbers from 1 to limit, replacing multiples of 3 with "Multiple of 3".
 def count_multiples_of_3(limit):
-    # TODO: Implement this function
-    pass  # Replace with your code
+    result = ""
+    count = 1
+
+    while count <= limit:
+        if count % 3 == 0:
+            result += "Multiple of 3" +"\n"
+
+        else:
+            result += str(count) + "\n"
+        count += 1
+    return result.strip ()
+
+    
+
+        
+
+
 
 # Function 6: Sum of Even Numbers in a Range
 # This function should calculate and return the sum of even numbers within a given range.
 def sum_of_even_numbers(start, end):
-    # TODO: Implement this function
-    pass  # Replace with your code
+    result = 0
+
+    for i in range(start, end + 1):
+        if i % 2 == 0: 
+            result += i
+                 
+    return result
+
+print(sum_of_even_numbers(1, 10))
 
